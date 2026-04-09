@@ -12,7 +12,6 @@ jobs:
                 echo "Msg 1"
                 echo "Msg 2"
                 echo "::endgroup::"
-                - name: "Group Logging"
             - name: "Step 1"    
               run: |
                 echo "MY_VAL=hello" >> $GITHUB_ENV
